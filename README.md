@@ -8,6 +8,8 @@ An Employee Policy Manager that has both admin and user tabs to manage their pol
 3. Locate the server file found in the backend folder
 4. Add own credential(s) on the MySQL provided code.
 5. Add a dummy account on your sql database for logging in the server as no registration is required for the admin of such a site.
+    - insert into users (username, userpassword) values ("Admin", "Admin123");
+    The above can be used as a dummy account for logging in, this has to be run on mysql workbench.
 6. Run npm install on the same backend directory.
 7. npm start
 8. cd ..
